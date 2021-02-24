@@ -1,7 +1,9 @@
-#Download file from URL
+## Download file from URL
+```bash
 wget https://data.qiime2.org/distro/core/qiime2-2020.11-py36-linux-conda.yml
+```
 
-#compress directory
+## compress directory
 tar -zcf GSE63042_kaiju.tar.gz Kaiju_Summary/
 
 #copy file from local to remote server
