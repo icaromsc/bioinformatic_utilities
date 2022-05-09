@@ -53,6 +53,18 @@ nohup Rscript 03_normalization_and_clustering.R &
 nohup Rscript 03_normalization_and_clustering.R &> 03_cite_seq.log & 
 ```
 
+
+### Download a list of files from HTTP/FTP Server
+``` wget -m -p -k -np -R '*html*,*htm*,*asp*,*php*,*css*' -X 'www' http://ftp.slackware-brasil.com.br/slackware64-current/
+```
+
+### List top 5 directories occupying disk space
+``` du -ha * | sort -rh | head -5
+```
+
+
+
+
 # BONUS
 
 ### Get number of mapped reads against reference
